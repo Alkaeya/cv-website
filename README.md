@@ -10,7 +10,7 @@ A modern, responsive CV website built with **Next.js 15**, **React 19**, **Tailw
 ## 🔗 Links
 
 - **GitHub Repository**: [Alkaeya/cv-website](https://github.com/Alkaeya/cv-website) (Public)
-- **Live Website**: [cv-website.vercel.app](https://cv-website.vercel.app) *(Deployed on Vercel)*
+- **Live Website**: [cv-website-kappa-sandy.vercel.app](https://cv-website-kappa-sandy.vercel.app) *(Deployed on Vercel)*
 
 ## 🎯 Features
 
@@ -129,7 +129,7 @@ cv-website/
 | **React** | React 19.2.3 |
 | **Styling** | Tailwind CSS 3.4.1 |
 | **UI Components** | Shadcn UI |
-| **Icons** | Lucide React 0.263.1 |
+| **Icons** | Lucide React 0.408.0 |
 | **Language** | TypeScript 5 |
 | **Image Optimization** | Next.js Image Component |
 | **Deployment** | Vercel |
@@ -165,7 +165,7 @@ cv-website/
 
 ## 🌐 Live Demo
 
-[View Live Website](https://cv-website-demo.vercel.app) (Replace with your Vercel URL)
+[View Live Website](https://cv-website-kappa-sandy.vercel.app) ✅ **Live & Ready!**
 
 ## 🚀 Deployment
 
