@@ -1,36 +1,43 @@
-# Alkaeya De La Peña - Professional CV Website
+# Alkaeya's Professional CV Website
 
-A modern, responsive CV website built with **Next.js 15**, **React 19**, **Tailwind CSS**, with professional dark/light mode toggle. Features comprehensive portfolio sections and mobile-responsive design.
+A modern, responsive CV website built with **Next.js 15**, **React 19**, **Tailwind CSS**, and **Shadcn UI components** featuring professional dark/light mode toggle and comprehensive portfolio sections.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.1.6-black?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-19.2.3-61DAFB?style=flat-square&logo=react)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=flat-square&logo=tailwind-css)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)
+
+## 🔗 Links
+
+- **GitHub Repository**: [Alkaeya/cv-website](https://github.com/Alkaeya/cv-website) (Public)
+- **Live Website**: [cv-website.vercel.app](https://cv-website.vercel.app) *(Deployed on Vercel)*
 
 ## 🎯 Features
 
-✨ **Professional Design**
-- Modern color scheme with blue/purple gradients
-- Clean, minimalist layout with excellent typography
-- Smooth transitions and hover effects
+✨ **Professional Design with Modern UI**
+- Clean, minimalist layout with blue/purple gradient theme
+- Shadcn UI components for professional appearance
+- Smooth animations and transitions
+- Professional headshot/avatar image
 
-🌙 **Dark/Light Mode**
-- Toggle switch in navigation bar
-- System preference detection
-- Persistent theme selection
+🌙 **Dark/Light Mode Toggle**
+- Context-based theme management using React hooks
+- Persistent theme preference using localStorage
+- Smooth transitions between themes
+- Toggle button in navigation bar
 
-📱 **Fully Responsive**
+📱 **Fully Responsive Design**
 - Mobile-first approach
-- Works on all device sizes
-- Tested on phones, tablets, and desktops
+- Optimized for all device sizes (mobile, tablet, desktop)
+- Tested on various screen resolutions
 
 📝 **Comprehensive CV Sections**
-- Hero section with name and title
-- About/profile section
-- 11 technical skills showcase
-- Work experience and projects
-- Education and certifications
-- Project portfolio
+- Hero section with professional avatar and bio
+- About section with quick facts
+- Technical skills showcase (Frontend, Backend, Tools)
+- Academic projects timeline (Capstone, Flutter projects)
+- Education background with relevant coursework (15+ courses)
+- Projects/Portfolio section
 - Contact information and social links
 
 🔗 **Social Integration**
@@ -38,7 +45,29 @@ A modern, responsive CV website built with **Next.js 15**, **React 19**, **Tailw
 - LinkedIn: https://www.linkedin.com/in/alkaeya-de-la-pe%C3%B1a-7a625a3b9/
 - Email: alkaeyadelapena@gmail.com
 
-## 🚀 Quick Start
+## 🤖 AI-Powered Development Approach
+
+This CV website demonstrates **modern AI-assisted web development practices**:
+
+### Design & Architecture
+- Modern UI patterns using Shadcn UI components
+- Component-based architecture following React best practices
+- Responsive design with Tailwind CSS utility-first approach
+- Theme management using React Context API
+
+### Features Implemented
+1. **Dynamic Theme Switching** - Context-based dark/light mode with localStorage persistence
+2. **Component Composition** - Reusable, modular components for different CV sections
+3. **Image Optimization** - Next.js Image component for performance and responsiveness
+4. **Type Safety** - Full TypeScript implementation for reliable code
+5. **Performance** - Optimized bundle size, lazy loading, image compression
+
+### Development Process
+- Built with modern tooling (Next.js, React, TypeScript)
+- Responsive-first mobile design approach
+- Clean code structure with semantic HTML
+- Accessibility considerations (alt text, ARIA labels)
+- Professional version control workflow with meaningful git commits
 
 ### Prerequisites
 - Node.js 18+ installed
@@ -94,12 +123,17 @@ cv-website/
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Next.js 16.1.6
-- **UI Library:** React 19.2.3
-- **Language:** TypeScript 5
-- **Styling:** Tailwind CSS 4
-- **Icons:** Lucide React
-- **Deployment:** Vercel
+| Category | Technology |
+|----------|-----------|
+| **Framework** | Next.js 16.1.6 |
+| **React** | React 19.2.3 |
+| **Styling** | Tailwind CSS 3.4.1 |
+| **UI Components** | Shadcn UI |
+| **Icons** | Lucide React 0.263.1 |
+| **Language** | TypeScript 5 |
+| **Image Optimization** | Next.js Image Component |
+| **Deployment** | Vercel |
+| **Version Control** | Git/GitHub |
 
 ## 📊 My Background
 
