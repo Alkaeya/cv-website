@@ -82,7 +82,8 @@ npm run start
 
 ### v0.dev Process Screenshot
 
-[Screenshot showing v0.dev interface and the AI generation workflow]
+<img width="1894" height="1059" alt="image" src="https://github.com/user-attachments/assets/091287bd-250e-4f23-bf96-907cfe09e2c9" />
+
 
 ---
 
