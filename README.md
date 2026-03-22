@@ -78,7 +78,8 @@ This project is deployed on **Vercel** with automatic continuous deployment on e
 This project demonstrates a complete **AI-powered development workflow** leveraging modern tools for rapid prototyping and professional implementation:
 
 ### v0.dev Design Phase
-![v0.dev Process](https://github.com/user-attachments/assets/79005484-0524-4211-b495-ad9e9616b52e)
+![v0.dev Process](https://github.com/user-attachments/assets/184fbd5a-fdc8-47ae-8c17-0623a869b8bf)
+
 
 **v0.dev Project:** https://v0.app/chat/cv-portfolio-website-bAptLyko678
 
@@ -106,10 +107,11 @@ v0.dev was used for rapid prototyping with:
 - 🔄 Demonstrates mastery of AI-powered design and development tools
 
 ### Dark Mode Screenshot
-![Dark Mode](https://github.com/user-attachments/assets/0e6a9884-a598-459d-95e5-2404c0875a35)
+![Dark Mode](https://github.com/user-attachments/assets/79005484-0524-4211-b495-ad9e9616b52e)
+
 
 ### Light Mode Screenshot
-![Light Mode](https://github.com/user-attachments/assets/184fbd5a-fdc8-47ae-8c17-0623a869b8bf)
+![Light Mode](https://github.com/user-attachments/assets/0e6a9884-a598-459d-95e5-2404c0875a35)
 
 
 ---
