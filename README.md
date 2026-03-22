@@ -82,7 +82,8 @@ npm run start
 
 ### v0.dev Process Screenshot
 
-<img width="1894" height="1059" alt="image" src="https://github.com/user-attachments/assets/091287bd-250e-4f23-bf96-907cfe09e2c9" />
+<img width="1913" height="1048" alt="image" src="https://github.com/user-attachments/assets/184fbd5a-fdc8-47ae-8c17-0623a869b8bf" />
+
 
 
 ---
