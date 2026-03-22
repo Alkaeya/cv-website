@@ -72,7 +72,8 @@ npm run start
 
 ### Dark Mode Screenshot
 
-[Screenshot of dark mode showing portfolio with moon toggle icon]
+<img width="1904" height="1046" alt="image" src="https://github.com/user-attachments/assets/79005484-0524-4211-b495-ad9e9616b52e" />
+
 
 ### Light Mode Screenshot
 
