@@ -77,7 +77,8 @@ npm run start
 
 ### Light Mode Screenshot
 
-[Screenshot of light mode showing portfolio with sun toggle icon]
+<img width="1917" height="1047" alt="image" src="https://github.com/user-attachments/assets/0e6a9884-a598-459d-95e5-2404c0875a35" />
+
 
 ### v0.dev Process Screenshot
 
