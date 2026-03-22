@@ -98,6 +98,7 @@ cv-website/
 ## Key Features Implemented
 
 ### ✨ Dark & Light Mode
+![Dark Mode Screenshot](https://github.com/user-attachments/assets/0e6a9884-a598-459d-95e5-2404c0875a35)
 - Toggle button in navbar (sun/moon icon)
 - Automatic system preference detection
 - Persistent theme selection using `next-themes`
@@ -114,6 +115,7 @@ cv-website/
 - **Footer:** Contact information and social links
 
 ### 📱 Responsive Design
+![Light Mode Screenshot](https://github.com/user-attachments/assets/184fbd5a-fdc8-47ae-8c17-0623a869b8bf)
 - Mobile-first approach
 - Tailwind CSS breakpoints (sm, md, lg)
 - Touch-friendly interactive elements
@@ -187,6 +189,8 @@ npm run start
 This project demonstrates a **hybrid AI-powered development workflow** combining v0.dev for design generation and GitHub Copilot for implementation:
 
 ### v0.dev Design Phase
+![v0.dev Process](https://github.com/user-attachments/assets/79005484-0524-4211-b495-ad9e9616b52e)
+
 **Project Link:** https://v0.app/chat/cv-portfolio-website-bAptLyko678
 
 v0.dev was used to rapidly prototype the professional CV portfolio design with the following specifications:
