@@ -1,6 +1,6 @@
 {
-  "name": "boiler-plate-nextjs",
-  "version": "0.1.0",
+  "name": "alkaeya-cv-website",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "lucide-react": "^0.263.1",
     "next": "16.1.6",
+    "next-themes": "^0.2.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
