@@ -1,141 +1,41 @@
-# Personal CV and Interactive Developer Portfolio
+# Alkaeya's Professional CV & Portfolio
 
-A modern, highly responsive developer portfolio built to showcase academic projects, technical skills, and software development growth as an Information Technology student.
+A modern, fully responsive professional portfolio website showcasing IT student background, capstone projects, technical skills, and academic achievements. Built with AI-powered design tools and Next.js for optimal performance and user experience.
 
-## Live Links
+## 📋 Live Links
 
 - **Live Portfolio:** https://cv-website-kappa-sandy.vercel.app/
 - **Repository:** https://github.com/Alkaeya/cv-website
 
-## AI Generation Approach
+## 🎨 AI Generation Approach
 
-This project was developed using a hybrid workflow: AI-assisted generation for speed and manual engineering for architecture, integration, and quality control.
+This project was developed using a **hybrid AI-powered workflow** combining design generation and code implementation:
 
-- **UI and Layout Generation (v0.dev):** Core section layouts and reusable interface structure were generated using v0.dev, then adapted into the project component hierarchy.
-- **Architecture and Integration (LLM Assistance):** AI assistance helped with integration into a modern Next.js App Router codebase, dependency alignment, and debugging issues during setup.
-- **Debugging and Refactoring:** AI was used to help diagnose missing package issues, adjust Tailwind and component configuration, and refine project structure for maintainability.
-- **Content Refinement:** AI-assisted drafting was used to convert academic and project experience into concise, professional portfolio wording.
+- **v0.dev Design Phase:** Used v0.dev to rapidly prototype the professional CV portfolio structure with responsive layouts, dark/light mode toggle, and modular component architecture
+- **GitHub Copilot Implementation:** Leveraged Copilot for code generation of React/TypeScript components, styling with Tailwind CSS, and integration into Next.js App Router
+- **Architecture & Integration:** AI assistance with Next.js setup, dependency management, theme provider implementation, and component hierarchy optimization
+- **Quality Refinement:** Used AI to debug package issues, optimize Tailwind configuration, refactor components for maintainability, and refine portfolio content into professional language
 
-## Features Implemented
+## ✨ Features Implemented
 
-- **Next.js App Router architecture for scalable page and component structure**
-- **Dark and Light mode toggle with system preference support**
-- **Modular, reusable component sections (Hero, Experience, Projects, Skills, Education, Footer)**
-- **Responsive layout for desktop, tablet, and mobile**
-- **Interactive project cards with repository links**
-- **Radix and Shadcn-inspired UI primitives with accessible patterns**
+- **Next.js 15 App Router** - Scalable, modern page and component structure
+- **Dark & Light Mode Toggle** - Seamless theme switching with system preference detection via next-themes
+- **Responsive Design** - Optimized for desktop, tablet, and mobile devices with Tailwind CSS breakpoints
+- **Modular Components** - Reusable sections: Hero, About, Skills, Experience, Education, Projects, Contact, Footer
+- **Interactive Elements** - Smooth animations, hover effects, and CTA buttons for engagement
+- **Professional Avatar** - Circular profile image with shadow effects and responsive sizing
+- **Accessibility First** - Semantic HTML, ARIA labels, proper heading hierarchy, and keyboard navigation
 
-## Tech Stack
+## 🛠 Tech Stack
 
-- **Framework:** Next.js, React, TypeScript
+- **Framework:** Next.js 15, React 19, TypeScript
 - **Styling:** Tailwind CSS
-- **UI Components:** Radix UI patterns, Shadcn-style components
-- **Icons:** Lucide React
-- **Theme Management:** next-themes
-- **Deployment:** Vercel
+- **UI Components:** Radix UI patterns, Shadcn-inspired design system
+- **Icons & Assets:** Lucide React for consistent iconography
+- **Theme Management:** next-themes with persistent storage
+- **Deployment:** Vercel with automatic CI/CD
 
-## How to Run Locally
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/Alkaeya/cv-website.git
-cd cv-website
-```
-
-2. **Install dependencies:**
-
-```bash
-npm install
-```
-
-3. **Start the development server:**
-
-```bash
-npm run dev
-```
-
-4. **Open your browser at:**
-
-```
-http://localhost:3000
-```
-
-## Production Commands
-
-```bash
-npm run build
-npm run start
-```
-
-## Project Structure
-
-```
-cv-website/
-├── app/
-│   ├── layout.tsx          # Root layout with theme provider
-│   ├── page.tsx            # Main portfolio page
-│   └── globals.css         # Global styles
-├── components/
-│   ├── Navbar.tsx          # Navigation with theme toggle
-│   ├── HeroSection.tsx      # Introduction & hero section
-│   ├── AboutSection.tsx     # Bio & career summary
-│   ├── SkillsSection.tsx    # Technical skills
-│   ├── ExperienceSection.tsx # Work & project experience
-│   ├── EducationSection.tsx # Education background
-│   ├── ProjectsSection.tsx  # Portfolio projects
-│   ├── ContactSection.tsx   # Contact information
-│   ├── Footer.tsx           # Footer with social links
-│   └── ThemeProvider.tsx    # Dark/light mode provider
-├── public/
-│   └── avatar.jpg          # Profile picture
-├── package.json
-├── next.config.ts
-├── tailwind.config.js
-└── tsconfig.json
-```
-
-## Key Features Implemented
-
-### ✨ Dark & Light Mode
-![Dark Mode Screenshot](https://github.com/user-attachments/assets/0e6a9884-a598-459d-95e5-2404c0875a35)
-- Toggle button in navbar (sun/moon icon)
-- Automatic system preference detection
-- Persistent theme selection using `next-themes`
-- Smooth transitions between themes
-
-### 🎨 Component Architecture
-- **Navbar:** Sticky navigation with theme toggle
-- **HeroSection:** Introduction with avatar, bio, and CTA buttons
-- **AboutSection:** Career summary and core competencies
-- **SkillsSection:** Technical skills categorized by type
-- **ExperienceSection:** Capstone project with detailed descriptions
-- **EducationSection:** Educational background and courses
-- **ProjectsSection:** Portfolio projects with GitHub links
-- **Footer:** Contact information and social links
-
-### 📱 Responsive Design
-![Light Mode Screenshot](https://github.com/user-attachments/assets/184fbd5a-fdc8-47ae-8c17-0623a869b8bf)
-- Mobile-first approach
-- Tailwind CSS breakpoints (sm, md, lg)
-- Touch-friendly interactive elements
-- Optimized image handling with Next.js Image component
-
-### ♿ Accessibility
-- Semantic HTML structure
-- ARIA labels for icon buttons
-- Proper heading hierarchy
-- Keyboard navigation support
-
-## Deployment
-
-This project is deployed on **Vercel** with automatic deployment on every push to the main branch.
-
-- **Production URL:** https://cv-website-kappa-sandy.vercel.app/
-- **Branch:** main
-- **Auto-deploy:** Yes
-
-## Getting Started with Development
+## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -165,62 +65,147 @@ npm run build
 npm run start
 ```
 
-## Customization Guide
+## 📂 Project Structure
 
-### Updating Content
-- **Personal Information:** Edit `components/HeroSection.tsx`
-- **Skills:** Update `components/SkillsSection.tsx`
-- **Experience:** Modify `components/ExperienceSection.tsx`
-- **Education:** Update `components/EducationSection.tsx`
-- **Projects:** Edit `components/ProjectsSection.tsx`
+```
+cv-website/
+├── app/
+│   ├── layout.tsx          # Root layout with theme provider
+│   ├── page.tsx            # Main portfolio page
+│   └── globals.css         # Global styles
+├── components/
+│   ├── Navbar.tsx          # Navigation with theme toggle
+│   ├── HeroSection.tsx      # Hero section with avatar & intro
+│   ├── AboutSection.tsx     # Bio & career summary
+│   ├── SkillsSection.tsx    # Technical skills
+│   ├── ExperienceSection.tsx # Work & project experience
+│   ├── EducationSection.tsx # Education background
+│   ├── ProjectsSection.tsx  # Portfolio projects
+│   ├── ContactSection.tsx   # Contact information
+│   ├── Footer.tsx           # Footer with social links
+│   └── ThemeProvider.tsx    # Dark/light mode provider
+├── public/
+│   └── avatar.jpg          # Profile picture
+├── package.json
+├── next.config.ts
+├── tailwind.config.js
+└── tsconfig.json
+```
 
-### Styling
-- **Colors:** Modify Tailwind config in `tailwind.config.js`
-- **Typography:** Adjust font sizes and families in CSS classes
-- **Theme Colors:** Edit gradient colors and hover states in components
+## 🎯 Key Sections
 
-### Adding a Profile Picture
-1. Replace `/public/avatar.jpg` with your image
-2. Ensure image is square (recommended: 288x288px minimum)
-3. The component will automatically apply circular crop and shadow
+### Hero Section
+Introduction with name, professional title (IT Student | Aspiring Full-Stack Developer), personal bio, CTA buttons, and circular avatar image. Also includes social media links (GitHub, LinkedIn, Email).
 
-## v0.dev AI Generation Process
+### Skills Section
+Technical competencies including:
+- **Languages:** JavaScript, TypeScript, PHP, Python
+- **Frontend:** Next.js, React, HTML, CSS, Tailwind CSS
+- **Backend:** Laravel, REST APIs
+- **Database:** MySQL
+- **Tools:** Git, Responsive Design
 
-This project demonstrates a **hybrid AI-powered development workflow** combining v0.dev for design generation and GitHub Copilot for implementation:
+### Experience Section
+**Full-Stack Developer (Capstone Project)**
+- Co-developing Student Academic Engagement Monitoring System with Decision Support
+- Building secure backend with PHP and Laravel framework
+- Designing interactive Data Analytics dashboards
+- Technologies: Laravel, PHP, MySQL, Tailwind CSS, Data Analytics
+
+### Education Section
+- BS Information Technology at St. Paul University Philippines
+- Relevant coursework and certifications
+
+### Projects Section
+Portfolio of academic and personal projects with descriptions and GitHub repository links
+
+## 🌓 Theme Customization
+
+### Dark Mode
+- Beautiful dark theme optimized for extended viewing
+- Moon icon toggle in navigation bar
+- Smooth color transitions
+
+### Light Mode
+- Clean, readable light theme with professional styling
+- Sun icon toggle in navigation bar
+- Automatically respects system preferences
+
+## 📱 Responsive Design & Accessibility
+
+- **Mobile-First Approach:** Optimized layouts starting from mobile up to desktop
+- **Breakpoints:** Full support for sm, md, and lg screens via Tailwind
+- **Touch-Friendly:** Large interactive areas and smooth scrolling
+- **Accessibility Features:** Semantic HTML, ARIA labels, proper heading hierarchy, keyboard navigation support
+
+## 🔧 Customization Guide
+
+### Update Personal Information
+- **Name & Title:** Edit `components/HeroSection.tsx`
+- **Bio & Summary:** Modify text in `components/AboutSection.tsx`
+- **Skills:** Update skill list in `components/SkillsSection.tsx`
+- **Experience:** Modify project details in `components/ExperienceSection.tsx`
+- **Education:** Update education info in `components/EducationSection.tsx`
+- **Projects:** Add/edit projects in `components/ProjectsSection.tsx`
+
+### Customize Styling
+- **Colors:** Modify color palette in `tailwind.config.js`
+- **Typography:** Adjust font sizes and families in component CSS classes
+- **Theme Colors:** Edit gradient backgrounds and hover states in components
+
+### Add Profile Picture
+1. Replace `/public/avatar.jpg` with your image (square format recommended, 288x288px minimum)
+2. The circular crop and shadow effects are automatically applied by the Image component
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel** with automatic continuous deployment on every push to the main branch.
+
+- **Production URL:** https://cv-website-kappa-sandy.vercel.app/
+- **Auto-Deploy:** Enabled on main branch
+- **Performance:** Optimized for fast load times and smooth interactions
+
+## 📊 v0.dev AI Generation Process
+
+This project demonstrates a complete **AI-powered development workflow** leveraging modern tools for rapid prototyping and professional implementation:
 
 ### v0.dev Design Phase
 ![v0.dev Process](https://github.com/user-attachments/assets/79005484-0524-4211-b495-ad9e9616b52e)
 
-**Project Link:** https://v0.app/chat/cv-portfolio-website-bAptLyko678
+**v0.dev Project:** https://v0.app/chat/cv-portfolio-website-bAptLyko678
 
-v0.dev was used to rapidly prototype the professional CV portfolio design with the following specifications:
-- Responsive layout for desktop, tablet, and mobile
-- Dark/light mode toggle with theme switching
-- Component structure for Hero, About, Skills, Experience, Education, Projects, and Footer sections
-- Professional typography and color scheme
-- Interactive elements and micro-interactions
+v0.dev was used for rapid prototyping with:
+- Professional responsive layouts for all portfolio sections
+- Dark/light mode toggle UI patterns
+- Component structure and styling framework
+- Interactive element designs and micro-interactions
 
-### GitHub Copilot Enhancement Phase
-The v0.dev design was then enhanced and customized using GitHub Copilot for:
-- **Component Development:** Code generation for all React/TypeScript components
-- **Integration:** Seamless integration into Next.js App Router architecture
-- **Styling Refinement:** Advanced Tailwind CSS customization and animations
-- **Content Integration:** Converting personal experience data into dynamic components
-- **Debugging & Optimization:** Resolving dependency issues and performance optimization
+### Development Workflow
 
-### Implementation Workflow
-1. **Design Foundation:** v0.dev generated initial layout and component structure
-2. **Code Generation:** GitHub Copilot assisted with component logic and styling
-3. **Customization:** Manual refinement of colors, spacing, and interactive behaviors
-4. **Content Population:** Adding real personal and academic information
-5. **Testing & Deployment:** Verifying dark/light mode, responsiveness, and deploying to Vercel
+1. **Design Foundation** - v0.dev generated initial layout and component structure
+2. **Code Implementation** - GitHub Copilot assisted with React/TypeScript component development
+3. **Architecture Setup** - Integrated into Next.js 15 App Router with proper structure
+4. **Styling & Theme** - Advanced Tailwind CSS customization with dark mode support
+5. **Content Integration** - Added real CV content and personal information
+6. **Optimization** - Resolved dependencies, optimized performance, enhanced accessibility
+7. **Deployment** - Configured for automatic Vercel deployment with CI/CD
 
-### Result
-A modern, production-ready professional portfolio that demonstrates:
-- ✨ Mastery of AI-powered design tools (v0.dev)
-- 💻 Proficiency with AI-assisted coding (GitHub Copilot)
-- 🎨 Clean code architecture and modern web design patterns
-- 🚀 Successful deployment and CI/CD workflow
+### Results Achieved
+- ✨ Modern, professional portfolio showcasing IT student background
+- 💻 Full-stack implementation using cutting-edge web technologies
+- 🎨 Clean, maintainable code architecture with modular components
+- 🌍 Globally accessible via Vercel with optimized performance
+- 🔄 Demonstrates mastery of AI-powered design and development tools
+
+### Dark Mode Screenshot
+![Dark Mode](https://github.com/user-attachments/assets/0e6a9884-a598-459d-95e5-2404c0875a35)
+
+### Light Mode Screenshot
+![Light Mode](https://github.com/user-attachments/assets/184fbd5a-fdc8-47ae-8c17-0623a869b8bf)
+
+---
+
+**Built with ❤️ using Next.js 15, React 19, Tailwind CSS, and v0.dev AI Generation**
 
 ---
 
